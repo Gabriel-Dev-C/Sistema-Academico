@@ -52,11 +52,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Resources
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Sobre.xaml]
+[C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/About/Sobre.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Sobre.xaml
-build_metadata.AdditionalFiles.TargetPath = Sobre.xaml
-build_metadata.AdditionalFiles.RelativePath = Sobre.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.About.Sobre.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\About\Sobre.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\About\Sobre.xaml
 
 [C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Curso/CreateCursos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
