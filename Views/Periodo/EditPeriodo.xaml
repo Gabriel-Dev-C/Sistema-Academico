@@ -23,7 +23,7 @@
 
         <Entry
          x:Name="etrNomePer"
-         Placeholder="Digite aqui o nome do período."
+         Placeholder="Digite aqui o novo nome do período."
          BackgroundColor="White"
          Margin="0,0,0,20"/>
 
@@ -34,7 +34,7 @@
 
         <Entry
          x:Name="etrSiglaPer"
-         Placeholder="Digite aqui a sigla do período."
+         Placeholder="Digite aqui a nova sigla do período."
          BackgroundColor="White"
          Margin="0,0,0,20"/>
 

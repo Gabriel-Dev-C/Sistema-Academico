@@ -82,6 +82,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Dis
 build_metadata.AdditionalFiles.TargetPath = Views\Disciplina\Disciplinas.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Disciplina\Disciplinas.xaml
 
+[C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Disciplina/EditDisciplina.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Disciplina.EditDisciplina.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Disciplina\EditDisciplina.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Disciplina\EditDisciplina.xaml
+
+[C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Disciplina/RemoveDisciplina.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Disciplina.RemoveDisciplina.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Disciplina\RemoveDisciplina.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Disciplina\RemoveDisciplina.xaml
+
 [C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Periodo/CreatePeriodo.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Periodo.CreatePeriodo.xaml

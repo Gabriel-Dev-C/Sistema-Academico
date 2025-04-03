@@ -89,6 +89,12 @@
 	  <MauiXaml Update="Views\Disciplina\CreateDisciplina.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Disciplina\EditDisciplina.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Disciplina\RemoveDisciplina.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Periodo\CreatePeriodo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

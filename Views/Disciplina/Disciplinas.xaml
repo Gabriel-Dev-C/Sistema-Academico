@@ -3,28 +3,86 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SistemaAcademico.disciplinas"
              Title="Disciplinas">
-    
-    <VerticalStackLayout>
+
+    <Grid
+     Padding="15"
+     RowSpacing="10"
+     ColumnSpacing="10">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
 
         <Label 
-            Text="DISCIPLINAS CADASTRADAS"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"
-            Margin="20"/>
+         Text="DISCIPLINAS CADASTRADAS"
+         VerticalOptions="Center" 
+         HorizontalOptions="Center"
+         HorizontalTextAlignment="Center"
+         TextTransform="Default"
+         FontSize="19"
+         Margin="0,0,0,20"
+         Grid.Row="0"
+         Grid.Column="1"
+         Grid.ColumnSpan="2"/>
+
+        <Label
+         x:Name="disciplina1Nome"
+         Text="Nome: Exemplo Disciplina 1"
+         Grid.Row="1"
+         Grid.Column="0"/>
+
+        <Label
+         x:Name="disciplina1Sigla"
+         Text="Sigla: Exemplo Disciplina 1"
+         Grid.Row="1"
+         Grid.Column="1"/>
+
+        <Button
+         Text="Editar"
+         Clicked="EditDisciplina"
+         BackgroundColor="Gray"
+         TextColor="White"
+         CornerRadius="0"
+         Grid.Row="1"
+         Grid.Column="2"/>
+
+        <Button
+         Text="Remover"
+         Clicked="RemoveDisciplina"
+         BackgroundColor="Gray"
+         TextColor="White"
+         CornerRadius="0"
+         Grid.Row="1"
+         Grid.Column="3"/>
 
         <BoxView
-            HeightRequest="1"
-            BackgroundColor="Gray"
-            HorizontalOptions="Fill"
-            Margin="20,0"/>
+         HeightRequest="1"
+         BackgroundColor="Gray"
+         HorizontalOptions="Fill"
+         Margin="0,18,0,6"
+         Grid.Row="2"
+         Grid.ColumnSpan="4"/>
 
         <Button 
-            Text="Adicionar Disciplina"
-            Clicked="CreateDisc"
-            BackgroundColor="Gray"
-            TextColor="White"
-            Margin="20"/>
+         Text="Adicionar Disciplina"
+         Clicked="CreateDisc"
+         BackgroundColor="Gray"
+         TextColor="White"
+         Margin="15"
+         Grid.Row="3"
+         Grid.ColumnSpan="4"/>
 
-    </VerticalStackLayout>
-    
+    </Grid>
+
 </ContentPage>
