@@ -58,7 +58,7 @@
             Margin="20,0"/>
 
         <Label 
-            Text="Essa aplicação tem como foco o desenvolvimento de um sistema acadêmico, e como inspiração decidi replicar o sistema acadêmico da Faculdade Anchieta. Dentro do aplicativo é possível cadastrar disciplinas, períodos e cursos através do método CRUD implementado na aplicação, permitindo uma experiência agradável ao usuário."
+            Text="Essa aplicação tem como foco o desenvolvimento de um sistema acadêmico, e como inspiração decidi replicar o sistema acadêmico da Faculdade Anchieta. Dentro do aplicativo é possível cadastrar disciplinas, períodos e cursos através do método CRUD implementado na aplicação, permitindo uma experiência agradável ao usuário e facilidade na manipulação dos dados."
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             Margin="15"/>

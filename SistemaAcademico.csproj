@@ -77,7 +77,7 @@
 	  <Compile Update="Views\Periodo\periodos.xaml.cs">
 	    <DependentUpon>Periodos.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="sobre.xaml.cs">
+	  <Compile Update="Views\About\sobre.xaml.cs">
 	    <DependentUpon>Sobre.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
@@ -98,10 +98,16 @@
 	  <MauiXaml Update="Views\Disciplina\Disciplinas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Views\Periodo\EditPeriodo.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Periodo\Periodos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Sobre.xaml">
+	  <MauiXaml Update="Views\About\Sobre.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Periodo\RemovePeriodo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

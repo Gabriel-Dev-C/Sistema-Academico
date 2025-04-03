@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SistemaAcademico.Views.Periodo.EditPeriodo"
+             Title="Período -> Editar">
+
+    <VerticalStackLayout
+    Margin="0,10,0,0"
+    Padding="10">
+
+        <Label
+         x:Name="lblTitle"
+         Text="Editar Período"
+         FontSize="Large"
+         VerticalTextAlignment="Center"
+         HorizontalTextAlignment="Center"
+         Margin="0,0,0,20"/>
+
+        <Label
+         x:Name="lblNomePer"
+         Text="Nome do Período"
+         Margin="0,0,0,5"/>
+
+        <Entry
+         x:Name="etrNomePer"
+         Placeholder="Digite aqui o nome do período."
+         BackgroundColor="White"
+         Margin="0,0,0,20"/>
+
+        <Label
+         x:Name="lblSiglaPer"
+         Text="Sigla do Período"
+         Margin="0,0,0,5"/>
+
+        <Entry
+         x:Name="etrSiglaPer"
+         Placeholder="Digite aqui a sigla do período."
+         BackgroundColor="White"
+         Margin="0,0,0,20"/>
+
+        <Button 
+        Text="Salvar"
+        BackgroundColor="Gray"
+        TextColor="White"
+        Margin="20,0,20,20"/>
+
+        <Button 
+        Text="Voltar"
+        Clicked="VoltarPeriodo"
+        BackgroundColor="Gray"
+        TextColor="White"
+        Margin="20,0,20,20"/>
+        <!--ESQUERDA, TOPO, DIREITA, BAIXO-->
+
+    </VerticalStackLayout>
+
+</ContentPage>

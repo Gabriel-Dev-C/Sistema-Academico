@@ -84,8 +84,20 @@ build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Per
 build_metadata.AdditionalFiles.TargetPath = Views\Periodo\CreatePeriodo.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Periodo\CreatePeriodo.xaml
 
+[C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Periodo/EditPeriodo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Periodo.EditPeriodo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Periodo\EditPeriodo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Periodo\EditPeriodo.xaml
+
 [C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Periodo/Periodos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Periodo.Periodos.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Periodo\Periodos.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Periodo\Periodos.xaml
+
+[C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Periodo/RemovePeriodo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Periodo.RemovePeriodo.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Periodo\RemovePeriodo.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Periodo\RemovePeriodo.xaml
