@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SistemaAcademico.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SistemaAcademico"
+    Shell.FlyoutBehavior="Flyout"
+    Shell.TabBarIsVisible="True"
+    Shell.FlyoutBackgroundColor="#8c898f"
+    Title="SistemaAcademico">
+    
+    <Shell.FlyoutHeader>
+        <Label Text="MENU" TextColor="Black" FontSize="Medium" HorizontalOptions="Center" Margin="0,20,0,15"/>
+    </Shell.FlyoutHeader>
+
+    <Shell.FlyoutFooter>
+        <VerticalStackLayout
+            Padding="16"
+            Spacing="10">
+            <Image Source="logo.png" WidthRequest="200"/>
+            <Label Text="Copyright &#169; Gabriel C. Martins" FontSize="Small" TextColor="Black" HorizontalOptions="Center"/>
+        </VerticalStackLayout>
+    </Shell.FlyoutFooter>
+
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="FlyMainPage"
+            Icon="home.png"/>
+        
+        <ShellContent
+            Title="Períodos"
+            ContentTemplate="{DataTemplate local:periodos}"
+            Route="Flyperiodos"
+            Icon="periodo.png"/>
+        
+        <ShellContent
+            Title="Cursos"
+            ContentTemplate="{DataTemplate local:cursos}"
+            Route="Flycursos"
+            Icon="curso.png"/>
+        
+        <ShellContent
+            Title="Disciplinas"
+            ContentTemplate="{DataTemplate local:disciplinas}"
+            Route="Flydisciplinas"
+            Icon="disciplina.png"/>
+
+        <ShellContent
+            Title="Sobre"
+            ContentTemplate="{DataTemplate local:sobre}"
+            Route="Flysobre"
+            Icon="inter.png"/>
+
+    </FlyoutItem>
+
+    <TabBar>
+        
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="TabMainPage"
+            Icon="home.png"/>
+
+        <ShellContent
+            Title="Períodos"
+            ContentTemplate="{DataTemplate local:periodos}"
+            Route="Tabperiodos"
+            Icon="periodo.png"/>
+
+        <ShellContent
+            Title="Cursos"
+            ContentTemplate="{DataTemplate local:cursos}"
+            Route="Tabcursos"
+            Icon="curso.png"/>
+
+        <ShellContent
+            Title="Disciplinas"
+            ContentTemplate="{DataTemplate local:disciplinas}"
+            Route="Tabdisciplinas"
+            Icon="disciplina.png"/>
+        
+    </TabBar>
+    
+
+</Shell>

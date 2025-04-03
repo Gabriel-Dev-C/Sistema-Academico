@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SistemaAcademico.CreateDisciplina"
+             Title="Disciplina -> Cadastrar">
+    
+    <VerticalStackLayout
+        Margin="0,10,0,0"
+        Padding="10">
+
+        <Label
+         x:Name="lblNomeDisci"
+         Text="Nome da Disciplina"
+         Margin="0,0,0,5"/>
+
+        <Entry
+         x:Name="etrNomeDisci"
+         Placeholder="Digite aqui o nome da disciplina."
+         BackgroundColor="White"
+         Margin="0,0,0,20"/>
+
+        <Label
+         x:Name="lblSiglaDisci"
+         Text="Sigla da disciplina"
+         Margin="0,0,0,5"/>
+
+        <Entry
+         x:Name="etrSiglaDisci"
+         Placeholder="Digite aqui a sigla da disciplina."
+         BackgroundColor="White"
+         Margin="0,0,0,20"/>
+
+        <Label
+         x:Name="lblObsDisci"
+         Text="Observações"
+         Margin="0,0,0,5"/>
+
+        <Entry
+         x:Name="etrObsDisci"
+         Placeholder="Digite aqui suas observações."
+         BackgroundColor="White"
+         Margin="0,0,0,20"/>
+
+        <Button 
+           Text="Salvar"
+           BackgroundColor="Gray"
+           TextColor="White"
+           Margin="20,0,20,20"/>
+
+        <Button 
+           Text="Voltar"
+           Clicked="VoltarDisc"
+           BackgroundColor="Gray"
+           TextColor="White"
+           Margin="20,0,20,20"/>
+     <!--ESQUERDA, TOPO, DIREITA, BAIXO-->
+
+    </VerticalStackLayout>
+    
+</ContentPage>

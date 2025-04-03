@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SistemaAcademico.periodos"
+             Title="Períodos">
+    
+    <VerticalStackLayout>
+        
+        <Label 
+            Text="PERÍODOS CADASTRADOS"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            Margin="20"/>
+
+        <BoxView
+            HeightRequest="1"
+            BackgroundColor="Gray"
+            HorizontalOptions="Fill"
+            Margin="20,0"/>
+
+        <Button 
+            Text="Adicionar Período"
+            Clicked="CreatePeriodo"
+            BackgroundColor="Gray"
+            TextColor="White"
+            Margin="20"/>
+        
+    </VerticalStackLayout>
+    
+</ContentPage>
