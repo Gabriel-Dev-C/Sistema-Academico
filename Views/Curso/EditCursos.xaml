@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SistemaAcademico.Views.Curso.EditCursos"
+             Title="Cursos -> Editar">
+
+    <VerticalStackLayout
+    Margin="0,10,0,0"
+    Padding="10">
+
+        <Label
+     x:Name="lblTitle"
+     Text="Editar Curso"
+     FontSize="Large"
+     VerticalTextAlignment="Center"
+     HorizontalTextAlignment="Center"
+     Margin="0,0,0,20"/>    
+
+        <Label
+     x:Name="lblNomeCur"
+     Text="Nome do Curso"
+     Margin="0,0,0,5"/>
+
+        <Entry
+     x:Name="etrNomeCur"
+     Placeholder="Digite aqui o novo nome do curso."
+     BackgroundColor="White"
+     Margin="0,0,0,20"/>
+
+        <Label
+     x:Name="lblSiglaCur"
+     Text="Sigla do Curso"
+     Margin="0,0,0,5"/>
+
+        <Entry
+     x:Name="etrSiglaCur"
+     Placeholder="Digite aqui a nova sigla do curso."
+     BackgroundColor="White"
+     Margin="0,0,0,20"/>
+
+        <Button 
+    Text="Salvar"
+    BackgroundColor="Gray"
+    TextColor="White"
+    Margin="20,0,20,20"/>
+
+        <Button 
+    Text="Voltar"
+    Clicked="VoltarCursos"
+    BackgroundColor="Gray"
+    TextColor="White"
+    Margin="20,0,20,20"/>
+        <!--ESQUERDA, TOPO, DIREITA, BAIXO-->
+
+    </VerticalStackLayout>
+
+</ContentPage>

@@ -38,13 +38,13 @@
 
         <Label
          x:Name="disciplina1Nome"
-         Text="Nome: Exemplo Disciplina 1"
+         Text="Nome: Exemplo Disciplina1"
          Grid.Row="1"
          Grid.Column="0"/>
 
         <Label
          x:Name="disciplina1Sigla"
-         Text="Sigla: Exemplo Disciplina 1"
+         Text="Sigla: Exemplo Disciplina1"
          Grid.Row="1"
          Grid.Column="1"/>
 

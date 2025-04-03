@@ -66,6 +66,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Cur
 build_metadata.AdditionalFiles.TargetPath = Views\Curso\Cursos.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Curso\Cursos.xaml
 
+[C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Curso/EditCursos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Curso.EditCursos.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Curso\EditCursos.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Curso\EditCursos.xaml
+
+[C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Curso/RemoveCursos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Curso.RemoveCursos.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Curso\RemoveCursos.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Curso\RemoveCursos.xaml
+
 [C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Disciplina/CreateDisciplina.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Disciplina.CreateDisciplina.xaml

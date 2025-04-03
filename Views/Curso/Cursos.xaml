@@ -3,28 +3,86 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SistemaAcademico.cursos"
              Title="Cursos">
-    
-    <VerticalStackLayout>
+
+    <Grid
+     Padding="15"
+     RowSpacing="10"
+     ColumnSpacing="10">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
 
         <Label 
-            Text="CURSOS CADASTRADOS"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center"
-            Margin="20"/>
+     Text="CURSOS CADASTRADOS"
+     VerticalOptions="Center" 
+     HorizontalOptions="Center"
+     HorizontalTextAlignment="Center"
+     TextTransform="Default"
+     FontSize="19"
+     Margin="0,0,0,20"
+     Grid.Row="0"
+     Grid.Column="1"
+     Grid.ColumnSpan="2"/>
+
+        <Label
+     x:Name="curso1Nome"
+     Text="Nome: Exemplo Curso 1"
+     Grid.Row="1"
+     Grid.Column="0"/>
+
+        <Label
+     x:Name="curso1Sigla"
+     Text="Sigla: Exemplo Curso 1"
+     Grid.Row="1"
+     Grid.Column="1"/>
+
+        <Button
+     Text="Editar"
+     Clicked="EditCurso"
+     BackgroundColor="Gray"
+     TextColor="White"
+     CornerRadius="0"
+     Grid.Row="1"
+     Grid.Column="2"/>
+
+        <Button
+     Text="Remover"
+     Clicked="RemoveCurso"
+     BackgroundColor="Gray"
+     TextColor="White"
+     CornerRadius="0"
+     Grid.Row="1"
+     Grid.Column="3"/>
 
         <BoxView
-            HeightRequest="1"
-            BackgroundColor="Gray"
-            HorizontalOptions="Fill"
-            Margin="20,0"/>
+     HeightRequest="1"
+     BackgroundColor="Gray"
+     HorizontalOptions="Fill"
+     Margin="0,18,0,6"
+     Grid.Row="2"
+     Grid.ColumnSpan="4"/>
 
         <Button 
-            Text="Adicionar Curso"
-            Clicked="CreateCursos"
-            BackgroundColor="Gray"
-            TextColor="White"
-            Margin="20"/>
+     Text="Adicionar Curso"
+     Clicked="CreateCurso"
+     BackgroundColor="Gray"
+     TextColor="White"
+     Margin="15"
+     Grid.Row="3"
+     Grid.ColumnSpan="4"/>
 
-    </VerticalStackLayout>
-    
+    </Grid>
+
 </ContentPage>
