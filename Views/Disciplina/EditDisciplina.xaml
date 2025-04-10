@@ -25,6 +25,7 @@
      x:Name="etrNomeDis"
      Placeholder="Digite aqui o novo nome da disciplina."
      BackgroundColor="White"
+     TextColor="Black"
      Margin="0,0,0,20"/>
 
         <Label
@@ -36,6 +37,7 @@
      x:Name="etrSiglaDis"
      Placeholder="Digite aqui a nova sigla da disciplina."
      BackgroundColor="White"
+     TextColor="Black"
      Margin="0,0,0,20"/>
 
         <Button 

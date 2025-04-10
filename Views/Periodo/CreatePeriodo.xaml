@@ -17,6 +17,7 @@
              x:Name="etrNomePer"
              Placeholder="Digite aqui o nome do período."
              BackgroundColor="White"
+             TextColor="Black"
              Margin="0,0,0,20"/>
 
         <Label
@@ -28,6 +29,7 @@
              x:Name="etrSiglaPer"
              Placeholder="Digite aqui a sigla do período."
              BackgroundColor="White"
+             TextColor="Black"
              Margin="0,0,0,20"/>
 
         <Button 

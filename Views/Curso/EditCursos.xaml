@@ -25,6 +25,7 @@
      x:Name="etrNomeCur"
      Placeholder="Digite aqui o novo nome do curso."
      BackgroundColor="White"
+     TextColor="Black"
      Margin="0,0,0,20"/>
 
         <Label
@@ -36,6 +37,7 @@
      x:Name="etrSiglaCur"
      Placeholder="Digite aqui a nova sigla do curso."
      BackgroundColor="White"
+     TextColor="Black"
      Margin="0,0,0,20"/>
 
         <Button 

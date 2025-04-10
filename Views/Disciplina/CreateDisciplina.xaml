@@ -17,6 +17,7 @@
          x:Name="etrNomeDisci"
          Placeholder="Digite aqui o nome da disciplina."
          BackgroundColor="White"
+         TextColor="Black"
          Margin="0,0,0,20"/>
 
         <Label
@@ -28,6 +29,7 @@
          x:Name="etrSiglaDisci"
          Placeholder="Digite aqui a sigla da disciplina."
          BackgroundColor="White"
+         TextColor="Black"
          Margin="0,0,0,20"/>
 
         <Label
@@ -39,6 +41,7 @@
          x:Name="etrObsDisci"
          Placeholder="Digite aqui suas observações."
          BackgroundColor="White"
+         TextColor="Black"
          Margin="0,0,0,20"/>
 
         <Button 

@@ -17,6 +17,7 @@
              x:Name="etrNomeCur"
              Placeholder="Digite aqui o nome do curso."
              BackgroundColor="White"
+             TextColor="Black"
              Margin="0,0,0,20"/>
 
         <Label
@@ -28,6 +29,7 @@
              x:Name="etrSiglaCur"
              Placeholder="Digite aqui a sigla do curso."
              BackgroundColor="White"
+             TextColor="Black"
              Margin="0,0,0,20"/>
 
         <Label
@@ -39,6 +41,7 @@
              x:Name="etrObsCur"
              Placeholder="Digite aqui suas observações."
              BackgroundColor="White"
+             TextColor="Black"
              Margin="0,0,0,20"/>
 
         <Button 
