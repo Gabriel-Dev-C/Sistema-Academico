@@ -57,6 +57,21 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Views\NovaPasta1\**" />
+	  <AndroidResource Remove="Views\NovaPasta\**" />
+	  <Compile Remove="Views\NovaPasta1\**" />
+	  <Compile Remove="Views\NovaPasta\**" />
+	  <EmbeddedResource Remove="Views\NovaPasta1\**" />
+	  <EmbeddedResource Remove="Views\NovaPasta\**" />
+	  <MauiCss Remove="Views\NovaPasta1\**" />
+	  <MauiCss Remove="Views\NovaPasta\**" />
+	  <MauiXaml Remove="Views\NovaPasta1\**" />
+	  <MauiXaml Remove="Views\NovaPasta\**" />
+	  <None Remove="Views\NovaPasta1\**" />
+	  <None Remove="Views\NovaPasta\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
@@ -83,6 +98,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\Cadastro\Cadastrar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Curso\CreateCursos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

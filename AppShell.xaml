@@ -54,6 +54,12 @@
             Route="Flysobre"
             Icon="inter.png"/>
 
+        <ShellContent
+            Title="Cadastro"
+            ContentTemplate="{DataTemplate local:Cadastrar}"
+            Route="Flycadastro"
+            Icon="cadastro.png"/>
+
     </FlyoutItem>
 
     <TabBar>
@@ -81,7 +87,13 @@
             ContentTemplate="{DataTemplate local:disciplinas}"
             Route="Tabdisciplinas"
             Icon="disciplina.png"/>
-        
+
+        <ShellContent
+            Title="Cadastro"
+            ContentTemplate="{DataTemplate local:Cadastrar}"
+            Route="Tabcadastro"
+            Icon="cadastro.png"/>
+
     </TabBar>
     
 

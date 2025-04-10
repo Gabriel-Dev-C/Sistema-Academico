@@ -58,6 +58,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Abo
 build_metadata.AdditionalFiles.TargetPath = Views\About\Sobre.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\About\Sobre.xaml
 
+[C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Cadastro/Cadastrar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Cadastro.Cadastrar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cadastro\Cadastrar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cadastro\Cadastrar.xaml
+
 [C:/Projeto Maui/DesenvolvimentoMobile/SistemaAcademico/Views/Curso/CreateCursos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SistemaAcademico.Views.Curso.CreateCursos.xaml
