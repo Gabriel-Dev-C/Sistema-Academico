@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SistemaAcademico.CreateCursos"
              Title="Curso -> Cadastrar">
-    
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Salvar" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+
     <VerticalStackLayout
         Margin="0,10,0,0"
         Padding="10">
@@ -44,11 +48,40 @@
              TextColor="Black"
              Margin="0,0,0,20"/>
 
-        <Button 
-          Text="Salvar"
-          BackgroundColor="Gray"
-          TextColor="White"
-          Margin="20,0,20,20"/>
+        <SearchBar x:Name="txtsearch"
+            Placeholder="Digite o nome."
+            TextChanged="txtsearch_TextChanged"/>
+        
+        <ListView x:Name="lstcursos" ItemSelected="lstcursos_ItemSelected">
+            
+            <ListView.Header>
+                <Grid ColumnDefinitions="*, *, *">
+                    <Label Grid.Column="0" Text="CÓDIGO"/>
+                    <Label Grid.Column="1" Text="NOME"/>
+                    <Label Grid.Column="2" Text="SIGLA"/>
+                </Grid>
+            </ListView.Header>
+            
+            <ListView.ItemTemplate>
+                
+                <DataTemplate>
+                    <ViewCell>
+                        
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Remover" Clicked="MenuItem_Clicked"/>
+                        </ViewCell.ContextActions>
+                        
+                        <Grid ColumnDefinitions="*, *, *">
+                            <Label Grid.Column="0" Text="{Binding Codigo}"/>
+                            <Label Grid.Column="1" Text="{Binding Nome}"/>
+                            <Label Grid.Column="2" Text="{Binding Sigla}"/>
+                        </Grid>
+                        
+                    </ViewCell>
+                </DataTemplate>
+                
+            </ListView.ItemTemplate>
+        </ListView>
 
         <Button 
           Text="Voltar"

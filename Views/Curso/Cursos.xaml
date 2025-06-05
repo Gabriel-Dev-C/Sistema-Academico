@@ -4,85 +4,66 @@
              x:Class="SistemaAcademico.cursos"
              Title="Cursos">
 
-    <Grid
-     Padding="15"
-     RowSpacing="10"
-     ColumnSpacing="10">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Adicionar" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30.0"
+            Spacing="25">
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
+            <Label x:Name="lblCodigo" Text="Código: "/>
+            <Entry x:Name="txtCodigo"/>
+            
+            <Label x:Name="lblNome" Text="Nome: "/>
+            <Entry x:Name="txtNome"/>
 
-        <Label 
-     Text="CURSOS CADASTRADOS"
-     VerticalOptions="Center" 
-     HorizontalOptions="Center"
-     HorizontalTextAlignment="Center"
-     TextTransform="Default"
-     FontSize="19"
-     Margin="0,0,0,20"
-     Grid.Row="0"
-     Grid.Column="1"
-     Grid.ColumnSpan="2"/>
+            <Label x:Name="lblSigla" Text="Sigla: "/>
+            <Entry x:Name="txtSigla"/>
 
-        <Label
-     x:Name="curso1Nome"
-     Text="Nome: Exemplo Curso 1"
-     Grid.Row="1"
-     Grid.Column="0"/>
+            <Button x:Name="btnInserir" Text="Inserir" Clicked="btnInserir_Clicked"/>
+            <Button x:Name="btnLimpar" Text="Limpar" Clicked="btnLimpar_Clicked"/>
+            <Button x:Name="btnAlterar" Text="Alterar" Clicked="btnAlterar_Clicked"/>
 
-        <Label
-     x:Name="curso1Sigla"
-     Text="Sigla: Exemplo Curso 1"
-     Grid.Row="1"
-     Grid.Column="1"/>
+            <SearchBar x:Name="txtsearch"
+                    Placeholder="Busca de Curso"
+                    TextChanged="txtsearch_TextChanged"/>
 
-        <Button
-     Text="Editar"
-     Clicked="EditCurso"
-     BackgroundColor="Gray"
-     TextColor="White"
-     CornerRadius="0"
-     Grid.Row="1"
-     Grid.Column="2"/>
+            <ListView x:Name="lstcursos" ItemSelected="lstcursos_ItemSelected">
 
-        <Button
-     Text="Remover"
-     Clicked="RemoveCurso"
-     BackgroundColor="Gray"
-     TextColor="White"
-     CornerRadius="0"
-     Grid.Row="1"
-     Grid.Column="3"/>
+                <ListView.Header>
+                    <Grid ColumnDefinitions="*, *, *, *">
+                        <Label Grid.Column="0" Text="Código"/>
+                        <Label Grid.Column="1" Text="Nome"/>
+                        <Label Grid.Column="2" Text="Sigla"/>
+                        <Label Grid.Column="3" Text="Obs"/>
+                    </Grid>
+                </ListView.Header>
 
-        <BoxView
-     HeightRequest="1"
-     BackgroundColor="Gray"
-     HorizontalOptions="Fill"
-     Margin="0,18,0,6"
-     Grid.Row="2"
-     Grid.ColumnSpan="4"/>
+                <ListView.ItemTemplate>
 
-        <Button 
-     Text="Adicionar Curso"
-     Clicked="CreateCurso"
-     BackgroundColor="Gray"
-     TextColor="White"
-     Margin="15"
-     Grid.Row="3"
-     Grid.ColumnSpan="4"/>
+                    <DataTemplate>
+                        <ViewCell>
 
-    </Grid>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Remover"
+                                        Clicked="MenuItem_Clicked"/>
+                            </ViewCell.ContextActions>
+
+                            <Grid ColumnDefinitions="*, *, *, *, *, *, *">
+                                <Label Grid.Column="0" Text="{Binding Codigo}"/>
+                                <Label Grid.Column="1" Text="{Binding Nome}"/>
+                                <Label Grid.Column="2" Text="{Binding Sigla}"/>
+                                <Label Grid.Column="3" Text="{Binding Obs}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </VerticalStackLayout>
+    </ScrollView>
 
 </ContentPage>
