@@ -38,13 +38,13 @@
         
         <ShellContent
             Title="Cursos"
-            ContentTemplate="{DataTemplate local:cursos}"
+            ContentTemplate="{DataTemplate local:Cursos}"
             Route="Flycursos"
             Icon="curso.png"/>
         
         <ShellContent
             Title="Disciplinas"
-            ContentTemplate="{DataTemplate local:disciplinas}"
+            ContentTemplate="{DataTemplate local:Disciplinas}"
             Route="Flydisciplinas"
             Icon="disciplina.png"/>
 
@@ -72,19 +72,19 @@
 
         <ShellContent
             Title="Períodos"
-            ContentTemplate="{DataTemplate local:periodos}"
+            ContentTemplate="{DataTemplate local:Periodos}"
             Route="Tabperiodos"
             Icon="periodo.png"/>
 
         <ShellContent
             Title="Cursos"
-            ContentTemplate="{DataTemplate local:cursos}"
+            ContentTemplate="{DataTemplate local:Cursos}"
             Route="Tabcursos"
             Icon="curso.png"/>
 
         <ShellContent
             Title="Disciplinas"
-            ContentTemplate="{DataTemplate local:disciplinas}"
+            ContentTemplate="{DataTemplate local:Disciplinas}"
             Route="Tabdisciplinas"
             Icon="disciplina.png"/>
 

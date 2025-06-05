@@ -80,16 +80,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\Periodo\createperiodo.xaml.cs">
+	  <Compile Update="Views\PeriodoPages\createperiodo.xaml.cs">
 	    <DependentUpon>CreatePeriodo.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\Curso\cursos.xaml.cs">
+	  <Compile Update="Views\CursoPages\cursos.xaml.cs">
 	    <DependentUpon>Cursos.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\Disciplina\disciplinas.xaml.cs">
+	  <Compile Update="Views\DisciplinaPages\disciplinas.xaml.cs">
 	    <DependentUpon>Disciplinas.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="Views\Periodo\periodos.xaml.cs">
+	  <Compile Update="Views\PeriodoPages\periodos.xaml.cs">
 	    <DependentUpon>Periodos.xaml</DependentUpon>
 	  </Compile>
 	  <Compile Update="Views\About\sobre.xaml.cs">
@@ -101,43 +101,25 @@
 	  <MauiXaml Update="Views\Cadastro\Cadastrar.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Curso\CreateCursos.xaml">
+	  <MauiXaml Update="Views\CursoPages\CreateCursos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Curso\EditCursos.xaml">
+	  <MauiXaml Update="Views\DisciplinaPages\CreateDisciplina.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Curso\RemoveCursos.xaml">
+	  <MauiXaml Update="Views\PeriodoPages\CreatePeriodo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Disciplina\CreateDisciplina.xaml">
+	  <MauiXaml Update="Views\CursoPages\Cursos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Disciplina\EditDisciplina.xaml">
+	  <MauiXaml Update="Views\DisciplinaPages\Disciplinas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Disciplina\RemoveDisciplina.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\Periodo\CreatePeriodo.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\Curso\Cursos.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\Disciplina\Disciplinas.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\Periodo\EditPeriodo.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\Periodo\Periodos.xaml">
+	  <MauiXaml Update="Views\PeriodoPages\Periodos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\About\Sobre.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\Periodo\RemovePeriodo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

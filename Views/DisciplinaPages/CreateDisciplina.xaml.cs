@@ -1,3 +1,5 @@
+using SistemaAcademico.Views.DisciplinaPages;
+
 namespace SistemaAcademico;
 
 public partial class CreateDisciplina : ContentPage
@@ -9,6 +11,6 @@ public partial class CreateDisciplina : ContentPage
 
     private async void VoltarDisc(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new disciplinas());
+        await Navigation.PushAsync(new Disciplinas());
     }
 }

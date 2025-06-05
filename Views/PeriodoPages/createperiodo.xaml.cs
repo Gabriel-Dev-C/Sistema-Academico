@@ -1,3 +1,5 @@
+using SistemaAcademico.Views.PeriodoPages;
+
 namespace SistemaAcademico;
 
 public partial class createperiodo : ContentPage
@@ -9,6 +11,6 @@ public partial class createperiodo : ContentPage
 
     private async void VoltarPeriodo(object sender, EventArgs e)
     {
-        await Navigation.PushAsync(new periodos());
+        await Navigation.PushAsync(new Periodos());
     }
 }
